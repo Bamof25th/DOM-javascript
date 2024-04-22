@@ -1,0 +1,48 @@
+#main {
+  width: 100%;
+  height: 100%;
+  background: #fcfcfc;
+}
+
+.container {
+  padding: 10vw 25vw;
+}
+
+input {
+  width: 100%;
+  padding: 12px 12px;
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: 1px solid black;
+  outline-color: brown;
+}
+.people {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.person {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.img {
+  border-radius: 50%;
+  border: 1px solid goldenrod;
+  width: 7vw;
+  height: 7vw;
+  background-color: bisque;
+  overflow: hidden;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
