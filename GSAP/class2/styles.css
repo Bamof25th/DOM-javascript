@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#box1{
+  height: 180px;
+  width: 180px;
+  background: crimson;
+}
+#box2{
+  height: 180px;
+  width: 180px;
+  background: royalblue;
+}
+#box3{
+  height: 180px;
+  width: 180px;
+  background: lightgreen;
+}
